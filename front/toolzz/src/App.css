@@ -1,0 +1,276 @@
+.login {
+    width: 644px; 
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto; 
+    margin-right: auto; 
+  }
+  
+  .login-content {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 100%; 
+    padding: 24px;
+    gap: 16px; 
+  }
+  
+  .create-account {
+    margin-right: 30px;
+  }
+  
+  .logo {
+    width: 132px;
+    height: 32px;
+    display: flex;
+    margin-left: 20px;
+  }
+  
+  .svg-aligner {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  
+  .button {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25.2px;
+    color: #0761E2;
+  }
+  
+  .button:hover {
+    color: #007bff;
+  }
+  
+  .text-info {
+    width: 608px; 
+    height: 130px; 
+    padding: 24px;
+  }
+  
+  .options,
+  .welcome-message {
+    width: 100%; 
+    height: auto; 
+  }
+  
+  .welcome-message h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44.8px;
+    color: #0E0E0E;
+  }
+  
+  .options h5 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25.2px;
+    color: #585858;
+  }
+  
+  .or {
+    font-family: 'Inter', sans-serif;
+    color: #585858;
+  }
+  
+  .social-buttons {
+    width: 644px;
+    height: 50px;
+    display: flex;
+    padding: 24px;
+    gap: 16px;
+    margin-left: 25px;
+  }
+  
+  .icon-button {
+    width: 137px;
+    height: 48px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background-color: transparent;
+    gap: 10px;
+  }
+  
+  .lines {
+    display: flex;
+    gap: 16px;
+    padding: 24px;
+    align-items: center; 
+  }
+  
+  .inputs {
+    width: 596px; 
+    height: auto; 
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center; 
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-container label {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: #0E0E0E;
+  }
+  
+  .input-container input {
+    padding: 16px;
+    border: 1px solid #6A6A6A;
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    color: #6A6A6A;
+    width: 570px; 
+  }
+  
+  .capctcha {
+    width: 454px;
+    height: 76px;
+    border: 1px;
+  }
+  
+  .keep-connected {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; 
+    width: 610px; 
+    margin-top: 20px;
+  }
+  
+  .keep-connected label {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #0E0E0E;
+    margin-left: 8px; 
+  }
+  
+  .keep-connected input[type="checkbox"] {
+    width: 20px; 
+    height: 20px; 
+    border: 2px solid #0761E2; 
+    border-radius: 2px; 
+  }
+  
+  .login-button {
+    margin-top: 20px;
+    padding: 15px;
+    border: 4px;  
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    width: 575px;
+    background-color: #0761E2; 
+    font-size: 18px;
+    text-align: center; 
+    color: #FFFFFF;
+  
+  }
+  
+  .login-button:hover {
+    background-color: #007bff; 
+  }
+  
+  .forgot-password {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    width: 292px;
+  }
+  
+  .forgot-text {
+    width: 164px;
+    height: 22px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: #585858;
+  }
+  
+  .recover {
+    font-family: 'Inter', sans-serif;
+    color: #0761E2;
+  }
+  
+  @media (max-width: 768px) {
+    .login {
+      width: 90%;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+      align-items: center;
+    }
+  
+    .text-info {
+      padding: 16px;
+    }
+  
+    .options,
+    .welcome-message {
+      text-align: center;
+    }
+  
+    .social-buttons {
+      display: flex;
+      flex-wrap: wrap; 
+      justify-content: center; 
+    }
+  
+    .icon-button {
+      margin: 5px; 
+    }
+  
+    .lines {
+      display: flex;
+      justify-content: center; 
+      align-items: center;
+    }
+  
+    .inputs {
+      gap: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .login {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .welcome-message h2 {
+      font-size: 28px;
+    }
+  
+    .options h5 {
+      font-size: 16px;
+    }
+  
+    .icon-button {
+      width: 120px;
+      height: 40px;
+    }
+  
+    .input-container input {
+      padding: 12px;
+      width: 100%; 
+    }
+  }
+  
